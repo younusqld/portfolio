@@ -151,7 +151,7 @@
                      <div class="flex items-center justify-between mb-6">
                          <h2 class="text-3xl font-bold gradient-text">About Me</h2>
                          <button id="generate-bio-btn" class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300 text-sm">
-                            <span id="bio-btn-text">✨ Refine Bio</span>
+                            
                             <span id="bio-loader" class="hidden loader"></span>
                          </button>
                     </div>
@@ -173,6 +173,10 @@
                         <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Flutter</span>
                         <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Google Cloud</span>
                         <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Artificial Intelligence</span>
+                        <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Robot Operating System</span>
+                        <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">OpenCV</span>
+                        <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Git & GitHub</span>
+                        <span class="skill-badge font-medium py-2 px-4 rounded-full text-sm">Figma</span>
                     </div>
                 </div>
             </div>
@@ -349,7 +353,7 @@
                            
                         </button>
                         <div class="flex items-center space-x-4">
-                            <a href="#" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="github" class="w-6 h-6"></i></a>
+                            <a href="https://github.com/younusqld/food-scan-recipe" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="github" class="w-6 h-6"></i></a>
                             <a href="#" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link" class="w-6 h-6"></i></a>
                         </div>
                     </div>
@@ -357,18 +361,19 @@
                 <!-- Project 4 -->
                 <div class="card rounded-lg p-6 flex flex-col h-full">
                     <img src="images/autonomous delivery robot.webp" alt="New Project" class="rounded-md mb-4 aspect-video object-cover">
-                    <h3 class="text-xl font-bold text-gray-200 mb-2">[Project 4 Title]</h3>
-                    <p class="text-gray-400 flex-grow mb-4" data-project-id="4">[A brief description of your fourth project. Explain the problem it solves and your role in creating it.]</p>
+                    <h3 class="text-xl font-bold text-gray-200 mb-2">Autonomous Delivery Robot</h3>
+                    <p class="text-gray-400 flex-grow mb-4" data-project-id="4">Designed and built a prototype for an autonomous delivery robot capable of navigating predefined paths and avoiding obstacles. My role focused on developing the perception and control systems using Python and computer vision libraries.</p>
                     <div class="flex flex-wrap gap-2 mb-4" data-tech-stack="[Tech 1], [Tech 2]">
-                        <span class="text-xs font-semibold bg-gray-700 text-gray-300 py-1 px-3 rounded-full">[Tech 1]</span>
-                        <span class="text-xs font-semibold bg-gray-700 text-gray-300 py-1 px-3 rounded-full">[Tech 2]</span>
+                        <span class="text-xs font-semibold bg-gray-700 text-gray-300 py-1 px-3 rounded-full">Python</span>
+                        <span class="text-xs font-semibold bg-gray-700 text-gray-300 py-1 px-3 rounded-full">OpenCV</span>
+                        <span class="text-xs font-semibold bg-gray-700 text-gray-300 py-1 px-3 rounded-full">ROS</span>
                     </div>
                     <div class="flex items-center justify-between mt-auto pt-4">
                         <button class="generate-desc-btn text-emerald-400 hover:text-emerald-300 text-sm flex items-center gap-1" data-project-id="4" data-project-title="[Project 4 Title]">
                            
                         </button>
                         <div class="flex items-center space-x-4">
-                            <a href="#" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="github" class="w-6 h-6"></i></a>
+                            <a href="https://github.com/younusqld/autonomous-delivery-robot" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="github" class="w-6 h-6"></i></a>
                             <a href="#" class="text-emerald-400 hover:text-emerald-300 transition duration-300" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link" class="w-6 h-6"></i></a>
                         </div>
                     </div>
@@ -387,18 +392,17 @@
                      <textarea id="contact-message" rows="4" class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-gray-300 focus:ring-emerald-500 focus:border-emerald-500" placeholder="Your message..."></textarea>
                      <div class="flex flex-col sm:flex-row justify-between items-center mt-3 gap-4">
                         <button id="generate-message-btn" class="w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300 text-sm">
-                            <span id="msg-btn-text">✨ Help me write</span>
+
                             <span id="msg-loader" class="hidden loader"></span>
                         </button>
-                        <a href="mailto:youremail@example.com" id="send-email-btn" class="w-full sm:w-auto text-center inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-6 rounded-lg text-md transition duration-300 shadow-lg shadow-emerald-500/20">
+                        <a href="mailto:nyounus114@gmail.com" id="send-email-btn" class="w-full sm:w-auto text-center inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-6 rounded-lg text-md transition duration-300 shadow-lg shadow-emerald-500/20">
                             Send Email
                         </a>
                      </div>
                 </div>
                 <div class="flex justify-center space-x-6 mt-10">
-                    <a href="#" class="text-gray-400 hover:text-emerald-400 transition duration-300"><i data-lucide="github" class="w-8 h-8"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-emerald-400 transition duration-300"><i data-lucide="linkedin" class="w-8 h-8"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-emerald-400 transition duration-300"><i data-lucide="twitter" class="w-8 h-8"></i></a>
+                    <a href="https://github.com/younusqld" class="text-gray-400 hover:text-emerald-400 transition duration-300"><i data-lucide="github" class="w-8 h-8"></i></a>
+                    <a href="https://www.linkedin.com/in/younus-n-0626131ba" class="text-gray-400 hover:text-emerald-400 transition duration-300"><i data-lucide="linkedin" class="w-8 h-8"></i></a>
                 </div>
             </div>
         </section>
